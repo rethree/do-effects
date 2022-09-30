@@ -1,0 +1,35 @@
+{
+  "name": "do-effects",
+  "version": "0.0.1",
+  "description": "Faking first class algebraic effects with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rethree/do-effects.git"
+  },
+  "keywords": [
+    "algebraic",
+    "effects",
+    "do",
+    "notation",
+    "monadic",
+    "bindings",
+    "computation",
+    "expressions",
+    "functional",
+    "programming",
+    "typescript"
+  ],
+  "author": "tanfonto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rethree/do-effects/issues"
+  },
+  "homepage": "https://github.com/rethree/do-effects#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
