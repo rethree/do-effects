@@ -1,2 +1,2 @@
 # do-effects
-Faking first class algebraic effects with TypeScript
+Simulating first class algebraic effects with TypeScript
