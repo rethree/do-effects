@@ -18,6 +18,6 @@ export class Resumable<A> {
 export type Effect<A> = IO<A> | Resumable<A>;
 
 export const resume = <A>(
-  effect: IO<A>,
+  io: IO<A>,
   continuation?: ((fault: _) => A) | A
-) => new Resumable(effect, continuation);
+) => new Resumable(io, continuation);
